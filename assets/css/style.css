@@ -1,0 +1,278 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+}
+
+p {
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    background: black;
+    height:80px;
+    width:100%;
+    color:white;
+
+    display: flex;
+    flex-direction: row;
+}
+.menu{
+    width:50%;
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu a{
+    color:white;
+}
+.menu a:hover{
+    opacity:1;
+    color:cyan;
+    cursor: pointer;
+}
+
+.logo{
+    height:50px;
+    width:50px;
+}
+/* ----------------------------------------- */
+.main{
+    background: white;
+    width:100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-top:30px;
+}
+.main-0{
+    background: white;
+    width:100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.simposio-vegan{
+    width:100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contenido{
+    width:50%;
+}
+
+.contenido-0{
+    width:100%;
+}
+
+.seccion-1{
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.seccion-1 h1 {
+    color:white;
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 5px;
+    margin-right: 160px;
+    z-index: 1;
+    position: relative;
+    top:50px;
+}
+.seccion-1 p {
+    color:white;
+    font-weight: light;
+    font-size: 25px;
+    margin: 10px;
+    margin-right: 160px;
+    z-index: 1;
+    position: relative;
+    top:50px;
+}
+.bg-image{
+    object-fit: cover;
+    width:100%;
+    height: 300px;
+    position: absolute;
+    z-index: 0;
+}
+
+.seccion-2{
+    height:550px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.we-work-image{
+    width:25%;
+    margin-top: 120px;
+}
+.seccion-2 h2{
+    font-size: 32px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+.seccion-2 p{
+    margin-top: 0;
+    text-align: center;
+}
+
+.seccion-3{
+    background: #A4452C;
+    height: 300px;
+    color:white;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.speaker-image{
+    height: 66.6%;
+}
+.seccion-3 div{
+    height: 66.6%;
+    margin-left: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.seccion-3 h2,h3,p{
+    margin-top:7px;
+    margin-bottom: 7px;
+}
+.seccion-3 h2{
+    margin-top: 0px;
+}
+.seccion-3 h4{
+    margin-bottom: 2px;
+}
+.seccion-3 h6{
+    margin-top:0px;
+    margin-bottom: 7px;
+}
+
+.seccion-4{
+    height:500px;
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.seccion-4 h2{
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+.eventos-container{
+    height: 45%;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.eventos-anteriores{
+    width:24%;
+    height:100%;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .eventos-anteriores a{
+    
+} */
+.eventos-anteriores a{
+    
+    color:black;
+}
+.eventos-anteriores a:hover{
+    opacity:0.5;
+}
+.eventos-anteriores a:hover + h3 {
+    color: cyan;
+}
+.evento-image{
+    width:100%;
+}
+/* ----------------------------------------- */
+.footer{
+    background:
+        radial-gradient(black 15%, transparent 16%) 0 0,
+        radial-gradient(black 15%, transparent 16%) 8px 8px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#111;
+    background-size:16px 16px;
+
+    color:white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    margin-top:100px;
+}
+.footer-0{
+    background:
+        radial-gradient(black 15%, transparent 16%) 0 0,
+        radial-gradient(black 15%, transparent 16%) 8px 8px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#111;
+    background-size:16px 16px;
+
+    color:white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    margin-top:0px;
+}
+Footer a{
+    color:white;
+}
+Footer a:hover{
+    
+    color:yellow;
+
+    -webkit-filter: invert(45%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%);
+    filter: invert(45%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%);
+}
+.cianware{
+    color:white;
+    margin-bottom:100px;
+}
+.cianware:hover{
+    color:red;
+}
+
+.icono{
+    width:50px;
+    margin:5px;
+    margin-top: 40px;
+}
